@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />   
+    <title>Responsive Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <a href="#submit">
+                    <img src="images/logo.png" alt="The logo of your Brand" />
+                </a>
+            </div>
+            <div class="image"></div>
+            <div class="text">
+               Join us Today<br/>
+            </div>            
+        </div>
+        <form action="" id="form">
+            <!-- Social Details -->
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">Already Have an Account? <br/>
+                    <span>Sign In</span>
+                </div>
+                <div class="btn">
+                    <div class="btn-1">
+                        <img src="https://img.icons8.com/color/30/000000/google-logo.png" alt="">
+                        Sign Up
+                    </div>
+                    <div class="btn-2">
+                        <img src="src=https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="">
+                        Sign Up
+                    </div>
+                </div>
+                <div class="or">
+                    Or
+                </div>
+            </div>
+
+            <!-- Username input here -->
+            <div>
+                <label for="username">Username</label>
+                <i class="fas fa-user"></i>
+                <input type="text" name="username" id="username" placeholder="Whirthingham Wilson">
+                <i id="failure" class="fas fa-exclamation-circle failure-icon"></i>
+                <i id="success" class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- Email input here -->
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="whirthman@gmail.com">
+                <i id="failure" class="fas fa-exclamation-circle failure-icon"></i>
+                <i id="success" class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- Password input here -->
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Your password here">
+                <i id="failure" class="fas fa-exclamation-circle failure-icon"></i>
+                <i id="success" class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- Submit Button Here -->
+            <div>
+                   <button type="submit" id="submit">Submit</button> 
+            </div>
+        </form>
+    </div> 
+    <script src="contact.js"></script>   
+</body>
+</html>
